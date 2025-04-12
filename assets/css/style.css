@@ -1,0 +1,134 @@
+body{
+    background-color: #ffff;
+    overflow-x: hidden;
+}
+.wd{
+    width: 20rem;
+    height: 23rem;
+}.wd1{
+    width:20rem ;
+
+}
+.w-5{
+    width: 300px;
+}.link{
+    text-decoration: none;
+    color: #6C63FF;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}.link:hover{
+    color: #000;
+}.ptop{
+    padding-top: 15rem;
+}.ptop h1{
+    font-size: 2.25rem;
+        line-height: 2.5rem;
+        color: rgb(30 56 81);
+        font-family: sans-serif;
+
+}.ptop span{
+    font-family: sans-serif;
+
+}.imagkhalid{
+    height: 200px;
+    width: 60%;
+    border-radius: 20px;
+}
+.img-pages{
+    width: 632px;
+    height: 540px;
+}.height1{
+    height: 239px;
+
+}.pb-5 a:hover{
+    background-color: red;
+}.font{
+    display: none;
+}#myLinks{
+    display: none;
+}.dark-mode{
+    background-color: #0D2438 !important;
+}.dark-mode #sectiondarkmode {
+    background-color: #0D2438 !important;
+    border-radius: 8px;
+    padding: 1rem;
+}.dark-mode #iddark{
+    color: white !important;
+}
+.dark-mode .darkid{
+    color: white !important;
+}.dark-mode .darkid1{
+    color: white !important;
+}.dark-mode .darkid2{
+    color: white !important;
+}.dark-mode .darkid3{
+    color: white !important;
+}.dark-mode .darkid4{
+    color: white !important;
+}.dark-mode .darkid5{
+    color: white !important;
+}.dark-mode .darkid6{
+    color: white !important;
+}.dark-mode .darkid7{
+    color: white !important;
+}.dark-mode .icondark1{
+    color: white !important;
+}.dark-mode #darmodepropo{
+    background-color: #0D2438 !important;
+}
+
+
+.icondark{
+    color: white !important;
+}
+
+.imgwhite{
+    display: none;
+}.imgwhite1{
+    display: block;
+}.imagedark1{
+    display: none;
+}.dark-modetitle{
+    color: white !important;
+}
+@media screen and (max-width:992px) {
+    .ml{
+        margin-left: 170px;
+    }.wd{
+        width:22rem ;
+        height: 416px;
+
+    }.wd1{
+        width: 22rem;
+        height: 416px;
+    }.w-5{
+        width: 300px;
+    }.img-pages{
+        width: 368px;
+        height: 489px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .w-5 {
+        width: 137px;
+    }.sm{
+        display: none;
+    }.ptop{
+       
+            padding-top: 3rem;
+        
+    }.pt-5 {
+        padding-top: 1rem !important;
+    }.font{
+        display: block;
+        font-size:2rem ;
+        color: #000;
+        font-weight: 900;
+        position: relative;
+        top: -6px;
+    }
+    
+}
