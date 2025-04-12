@@ -1,27 +1,88 @@
-# MYPortfolio
+# 🚀 MyPortfolio Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Bienvenue sur **MyPortfolio**, un site portfolio interactif développé avec **Angular 16**, **TypeScript** et **Tailwind CSS**, visant à présenter mes compétences, mon parcours, mes projets et un formulaire de contact fonctionnel.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📸 Aperçu du projet
 
-## Code scaffolding
+![Screenshot Home](./screenshots/home.png)
+![Screenshot Projects](./screenshots/projects.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📌 Présentation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🎯 **Objectif** : Créer un site portfolio professionnel et responsive afin de :
+- Mettre en avant mes **compétences techniques**
+- Montrer mes **projets réalisés**
+- Faciliter la prise de contact grâce à un **formulaire dynamique**
 
-## Running unit tests
+👨‍💻 Développé dans le cadre d’un projet individuel du 07/04/2025 au 11/04/2025.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🛠️ Technologies utilisées
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+| Technologie     | Description                        |
+|----------------|------------------------------------|
+| 🅰️ Angular 16+ | Framework SPA                      |
+| 💻 TypeScript   | Langage principal                  |
+| 🎨 Tailwind CSS | Style responsive et utilitaire     |
+| 🌐 HTML & CSS   | Base de l’interface                |
+| 📦 GitHub Pages | Déploiement du site                |
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🧩 Structure du projet
+
+📁 **Composants :**
+
+- `navbar` : Barre de navigation avec liens ancrés
+- `home` : Présentation (nom, rôle, photo, GitHub, LinkedIn)
+- `about` : Bio, compétences, parcours
+- `project` : Cartes de projets avec filtre par technologie
+- `cv` : Téléchargement de mon CV PDF
+- `contact` : Formulaire avec validation
+- `footer` : Informations légales et raccourcis
+
+🔧 **Services :**
+
+- `ProjectService` : Fournit la liste des projets à afficher
+
+📍 **Routing :**
+
+- Utilisation de `AppRoutingModule` pour la navigation entre les sections
+
+---
+
+## 🌟 Fonctionnalités
+
+- ✅ Interface responsive (mobile, tablette, desktop)
+- ✅ Bio avec photo et liens sociaux
+- ✅ Liste filtrable de projets (image, titre, description, GitHub/Demo)
+- ✅ Formulaire de contact avec validation des champs
+- ✅ Téléchargement du CV en PDF
+- ✅ Dark Mode 🌙 / Light Mode ☀️
+- ✅ Mode multilingue (🇫🇷 Français / 🇬🇧 Anglais)
+
+---
+
+## 📲 Lancement du projet
+
+### Prérequis
+- Node.js
+- Angular CLI
+
+### Étapes
+
+```bash
+# Cloner le repo
+git clone https://github.com/ton-pseudo/MyPortfolio.git
+cd MyPortfolio
+
+# Installer les dépendances
+npm install
+
+# Lancer en mode développement
+ng serve
