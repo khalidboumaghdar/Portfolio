@@ -6,8 +6,9 @@ Bienvenue sur **MyPortfolio**, un site portfolio interactif développé avec **A
 
 ## 📸 Aperçu du projet
 
-![Screenshot Home](./screenshots/home.png)
-![Screenshot Projects](./screenshots/projects.png)
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/42544240-de9d-4a3a-ab45-1beedcd53e57" />
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/92a4ac82-3fb4-4388-930c-89925232f447" />
+
 
 ---
 
